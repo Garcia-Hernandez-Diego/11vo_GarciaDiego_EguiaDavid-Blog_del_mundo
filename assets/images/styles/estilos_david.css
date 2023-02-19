@@ -206,12 +206,13 @@ article>header>hgroup>h2>img {
 
 .blogging {
     display: flex;
+    background-color: rgb(44, 43, 43);
     justify-content: flex-end;
     align-items: center;
     padding: 0.5rem;
     border-bottom: dashed #fff 1px;
 }
 
-.blogging:nth-of-type(odd) {
+.blogging:nth-of-type(even) {
     background-color: black;
 }
